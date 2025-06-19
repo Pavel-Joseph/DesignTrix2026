@@ -7,7 +7,7 @@ import Hero from "./pages/Hero";
 import App from "./pages/App";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/">
     <Routes>
       <Route path="/" element={<Hero/>} />
       <Route path="/content" element={<App/>}/>
