@@ -30,7 +30,7 @@ export const aboutCollege = {
 
 export const events = [
   {
-    name: "DOMinance Technical",
+    name: "DOM-inance Technical",
     desc: `Offline Code-from-Scratch Challenge\nTask: Recreate a provided UI screenshot with maximum precision`,
     bigImg: "/images/poster/coding.jpg",
     smallImg: "/images/logo/coding.jpg",
@@ -49,7 +49,7 @@ export const events = [
       "bg-gradient-to-l from-orange-600/40 via-rose-500/20 to-transparent",
   },
   {
-    name: "Disrupt Technical",
+    name: "IdeaForge Technical",
     desc: 'Idea Presentation & Pitching\nTask: Identify a problem statement and present a feasible, tech-based solution/startup idea',
     smallImg: "/images/logo/artwar.png",
     bigImg: "/images/poster/art.jpg",
@@ -71,7 +71,7 @@ export const events = [
       "bg-gradient-to-l from-purple-600/40 via-indigo-500/20 to-transparent",
   },
   {
-    name: "Low-fi Technical",
+    name: "Disrupt.exe Technical",
     desc: "Hands-on Prototyping Workshop & Challenge\nTask: Solve a specific user-journey problem by creating a physical, paper-based wireframe/prototype",
     smallImg: "/images/logo/paper.png",
     bigImg: "/images/poster/paper.jpg",
