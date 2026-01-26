@@ -97,7 +97,7 @@ const Event = ({
             {/* Middle Section - Rules */}
             <SpotlightCard className="h-auto bg-transparent text-white p-6 rounded-lg shadow-lg border-0 hover:scale-105 transition-transform duration-300">
               <p className="text-2xl font-bold mb-4 text-red-400">Rules:</p>
-              <ul className="list-disc pl-6 space-y-2 text-gray-300 break-words">
+              <ul className="list pl-6 space-y-2 text-gray-300 break-words">
                 {rules.map((data, index) => (
                   <li key={index} className="">
                     {data}
