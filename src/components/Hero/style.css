@@ -10,7 +10,7 @@
 svg path{
     fill: transparent;
     stroke-width: 7;    
-    stroke:rgb(247, 17, 17);
+    stroke:rgb(112, 41, 255);
     stroke-dasharray: 50;
     stroke-dashoffset: 100;
     animation: textAnimation 4s ease-in-out 1 forwards;
