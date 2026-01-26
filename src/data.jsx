@@ -169,5 +169,5 @@ export const prizes = {
   ],
 };
 
-export const regLink = "https://forms.gle/8DBPu919xZab1DeHA";
+export const regLink = "https://forms.gle/jewvf6TuDNFQC1396";
 export const instaLink="https://www.instagram.com/designtrix25/";
