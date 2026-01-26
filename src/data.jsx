@@ -50,7 +50,7 @@ export const events = [
   },
   {
     name: "Disrupt Technical",
-    desc: 'Idea Presentation & Pitching\nTask: Identify a problem statement and present a feasible, tech-based solution/startup idea`,
+    desc: 'Idea Presentation & Pitching\nTask: Identify a problem statement and present a feasible, tech-based solution/startup idea',
     smallImg: "/images/logo/artwar.png",
     bigImg: "/images/poster/art.jpg",
     rules: [
