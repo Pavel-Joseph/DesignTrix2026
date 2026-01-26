@@ -39,7 +39,7 @@ export const events = [
 
 "Duration: 45 Mins",
 
-"⚙️ Prerequisites;","Hardware: Participants must bring their own laptop (fully charged).","Software: VS Code or Notepad++ (Pre-installed).","Connectivity: No Internet access will be provided or allowed during the contest.",
+"⚙️ Prerequisites:","Hardware: Participants must bring their own laptop (fully charged).","Software: VS Code or Notepad++ (Pre-installed).","Connectivity: No Internet access will be provided or allowed during the contest.",
 
 "🏆 Evaluation Criteria:","Visual Accuracy: How closely the output matches the reference screenshot (Layout, Spacing, Typography).","Code Efficiency: Use of clean, semantic HTML and optimized CSS","Responsiveness: Proper alignment and scaling within the specified viewport."
 ],
@@ -49,16 +49,21 @@ export const events = [
       "bg-gradient-to-l from-orange-600/40 via-rose-500/20 to-transparent",
   },
   {
-    name: "AIArtWar Technical",
-    desc: `Participants generate AI-based art pieces on a given theme using tools like dall-e or gencraft. The best art wins.`,
+    name: "Disrupt Technical",
+    desc: 'Idea Presentation & Pitching\nTask: Identify a problem statement and present a feasible, tech-based solution/startup idea`,
     smallImg: "/images/logo/artwar.png",
     bigImg: "/images/poster/art.jpg",
     rules: [
-      "Participants must be individuals.",
-      "A specific theme will be announced at the start of the event.",
-      "All submissions must align with the given theme.",
-      "Participants must use the specific AI art generator which will be revealed at the event.",
-      "AI-generated images must be original creations. No direct modifications of existing artworks.",
+      "Team Size: 1 to 3 members",
+      "Deliverable: A PowerPoint presentation (PPT) or a clickable prototype",
+      "⚙️ Prerequisites:",
+      "Hardware: Participants must bring their own laptop",
+      "Preparation: Participants should come prepared with their presentation or prototype on a pen drive or local storage (ensure it works offline)",
+      "🏆 Evaluation Criteria:",
+      "Innovation: How unique and creative is your solution?",
+      "Feasibility: Can this be realistically implemented with current technology?",
+      "Impact: The potential of the idea to solve a significant problem or disrupt an industry",
+      "Presentation Skills: Clarity, confidence, and how well you handle the Q&A round",
     ],
     bgLeftGrad:
       "bg-gradient-to-r from-purple-600/60 via-indigo-500/40 to-transparent",
@@ -66,16 +71,21 @@ export const events = [
       "bg-gradient-to-l from-purple-600/40 via-indigo-500/20 to-transparent",
   },
   {
-    name: "VisionaryVox Technical",
-    desc: `Step into the spotlight and present your groundbreaking ideas in a high-impact 5-minute talk, followed by a dynamic 2-minute Q&A! This is your chance to challenge conventions, spark discussions, and showcase your innovative thinking. Engage with like-minded minds, defend your ideas, and leave a lasting impression! `,
+    name: "Low-fi Technical",
+    desc: "Hands-on Prototyping Workshop & Challenge\nTask: Solve a specific user-journey problem by creating a physical, paper-based wireframe/prototype",
     smallImg: "/images/logo/paper.png",
     bigImg: "/images/poster/paper.jpg",
     rules: [
-      "1 to 3 members per team can participate.",
-      "Only Team leader can register with the Team name, Team members, Title and Abstract.",
-      "The PPT must contain the following content: Title, Team members, Problem Statement, Solution, Novelty, Technical Stack, Work Flow and Prototype.",
-      "Each team can present for about 5 mins and Q&A session will be conducted for 2 mins.",
-      "Registration must be done before the deadline and on-spot registration is not available.",
+      "Team Size: 1 to 2 members",
+      "Materials: Paper, markers, and basic stationary (will be provided, though you are welcome to bring your favorite sketching tools).",
+      "⚙️ Prerequisites:",
+      "No Laptops Required: This is a 100% offline, analog event",
+      "Mindset: A strong understanding of user flow, navigation logic, and information architecture",
+      "🏆 Evaluation Criteria:",
+      "User Experience (UX) Logic: Is the flow intuitive and easy for a user to follow?",
+      "Problem Solving: How effectively does your design address the specific constraints provided?",
+      "Clarity: Is the layout clean and the functionality of each \"screen\" easy to understand?",
+      "Innovation: Creative use of physical elements to simulate digital interactions (tabs, scrolls, or pop-ups)"
     ],
     bgLeftGrad:
       "bg-gradient-to-r from-[#020239] via-[#5444af] to-[#130086]",
