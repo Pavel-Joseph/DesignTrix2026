@@ -30,21 +30,20 @@ export const aboutCollege = {
 
 export const events = [
   {
-    name: "CipherSprint Technical",
-    desc: `A thrilling multi-round coding challenge featuring code reconstruction, algorithmic problem-solving, and debugging with hidden twists for extra points!`,
+    name: "DOMinance Technical",
+    desc: `Offline Code-from-Scratch Challenge`,
     bigImg: "/images/poster/coding.jpg",
     smallImg: "/images/logo/coding.jpg",
     rules: [
-      "Round 1: Algorithm Arena (45 mins)",
-  ` Challenge: Solve 3 coding problems:`, 
-     `- 1 Easy  
-     - 2 Medium `, 
-   `Goal: Submit correct and optimized solutions for all problems.  
-    Twist: Each problem includes bonus challenges—complete them for extra points!`,
-  "Round 2: Debug & Hack (15 mins)",
-  `Challenge: Debug and optimize a faulty code snippet.  
-  Goal: Identify and fix all errors to improve efficiency.  
-  Twist: A hidden mystery bug is lurking—discover and fix it for bonus points!`
+      "Task: Recreate a provided UI screenshot with maximum precision",
+
+"Team Size: 1 to 2 members",
+
+"Duration: 45 Mins",
+
+"⚙️ Prerequisites: \nHardware: Participants must bring their own laptop (fully charged).\nSoftware: VS Code or Notepad++ (Pre-installed).\nConnectivity: No Internet access will be provided or allowed during the contest.",
+
+"🏆 Evaluation Criteria:\nVisual Accuracy: How closely the output matches the reference screenshot (Layout, Spacing, Typography).\nCode Efficiency: Use of clean, semantic HTML and optimized CSS\nResponsiveness: Proper alignment and scaling within the specified viewport."
 ],
     bgLeftGrad:
       "bg-gradient-to-r from-orange-600/60 via-rose-500/40 to-transparent",
