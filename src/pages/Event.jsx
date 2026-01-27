@@ -6,6 +6,15 @@ import { motion } from "framer-motion";
 import SpotlightCard from "../components/styles/SpotlightCard";
 import { regLink } from "../data";
 
+const Desc = ({ text }) => (
+  <>
+    {text.split("\n").map((line, i) => (
+      <p key={i} className="text-lg text-gray-300">
+        {line}
+      </p>
+    ))}
+  </>
+);
 const Event = ({
   progress,
   range,
@@ -72,7 +81,7 @@ const Event = ({
             <div className="lg:flex lg:flex-col gap-6 sm:hidden max-sm:hidden">
               <SpotlightCard className="bg-transparent text-white p-6 rounded-lg shadow-lg border-0 hover:scale-105 transition-transform duration-300 ease-in-out">
                 <p className="text-2xl font-bold mb-4 text-cyan-400">What?</p>
-                <p className="text-lg text-gray-300">{desc}</p>
+                <Desc text={desc} />
               </SpotlightCard>
 
               {/* Image Below About */}
