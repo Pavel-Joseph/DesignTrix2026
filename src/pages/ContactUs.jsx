@@ -85,7 +85,7 @@ const ContactUs = ({ handleHover }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="text-lg font-medium hover:text-pink-400">DesignTrix'25</p>
+              <p className="text-lg font-medium hover:text-pink-400">DesignTrix'26</p>
             </a>
           </div>
         </div>
