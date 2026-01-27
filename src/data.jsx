@@ -100,7 +100,7 @@ export const events = [
     smallImg: "/images/logo/connection.jpg",
     bigImg: "/images/poster/connection.jpg",
     rules: [
-      "Team Size: 1 to 2 members","Submission: Participants must create memes within the given timeframe and submit them in the specified format (JPG/PNG)","<strong>⚙️ Prerequisites:</strong>","Hardware: Participants must bring their own laptop or smartphone","Software: Any meme creation app or software of choice","Connectivity: Internet access will be provided for research and image sourcing","<strong>⚙️ Prerequisites:</strong>","Hardware: Participants must bring their own laptop","Tools: You are free to use any meme generator, Canva, Photoshop, or even MS Paint","Content: All entries must be original and free from any offensive, discriminatory, or vulgar content",
+      "Team Size: 1 to 2 members","Submission: Participants must create memes within the given timeframe and submit them in the specified format (JPG/PNG)","<strong>⚙️ Prerequisites:</strong>","Hardware: Participants must bring their own laptop or smartphone","Software: Any meme creation app or software of choice","Connectivity: Internet access will be provided for research and image sourcing",
     ],
     bgLeftGrad:
       "bg-gradient-to-r from-[#0e263c] via-[#a5021f] to-[#581826]",
