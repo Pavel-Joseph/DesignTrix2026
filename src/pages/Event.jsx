@@ -76,7 +76,7 @@ const Event = ({
               </SpotlightCard>
 
               {/* Image Below About */}
-              <div
+              {/*<div
                 {...handleHover}
                 className="overflow-hidden relative rounded-lg hover:scale-110 transition duration-300"
               >
@@ -91,7 +91,7 @@ const Event = ({
                     loading="lazy"
                   />
                 </motion.div>
-              </div>
+              </div>*/}
             </div>
 
             {/* Middle Section - Rules */}
