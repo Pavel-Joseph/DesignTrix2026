@@ -65,7 +65,7 @@ export const events = [
   },
   {
     name: "Disrupt.exe Technical",
-    desc: "Hands-on Prototyping Workshop & Challenge\nTask: Solve a specific user-journey problem by creating a physical, paper-based wireframe/prototype\n🏆 Evaluation Criteria:\nUser Experience (UX) Logic: Is the flow intuitive and easy for a user to follow?\nProblem Solving: How effectively does your design address the specific constraints provided?\nClarity: Is the layout clean and the functionality of each \"screen\" easy to understand?\nInnovation: Creative use of physical elements to simulate digital interactions (tabs, scrolls, or pop-ups)",
+    desc: "Hands-on Prototyping Workshop & Challenge\n<strong>Task:</strong> Solve a specific user-journey problem by creating a physical, paper-based wireframe/prototype\n<strong>🏆 Evaluation Criteria:</strong>\n<strong>User Experience (UX) Logic:</strong> Is the flow intuitive and easy for a user to follow?\n<strong>Problem Solving:</strong> How effectively does your design address the specific constraints provided?\n<strong>Clarity:</strong> Is the layout clean and the functionality of each \"screen\" easy to understand?\n<strong>Innovation:</strong> Creative use of physical elements to simulate digital interactions (tabs, scrolls, or pop-ups)",
     smallImg: "/images/logo/paper.png",
     bigImg: "/images/poster/paper.jpg",
     rules: [

@@ -6,15 +6,41 @@ import { motion } from "framer-motion";
 import SpotlightCard from "../components/styles/SpotlightCard";
 import { regLink } from "../data";
 
-const Desc = ({ text }) => (
-  <>
-    {text.split("\n").map((line, i) => (
-      <p key={i} className="text-lg text-gray-300">
-        {line}
-      </p>
+const Desc = ({ text }) => {
+  const lines = text.split("\n");
+  
+  return (
+    <>
+      {lines.map((line, lineIndex) => (
+        <p key={lineIndex} className="text-lg text-gray-300">
+          {/* Now split line by <strong>...</strong> and render parts */}
+          {line.split(/<\/?strong>/gi).map((part, partIndex) => {
+            if (partIndex % 2 === 1) {
+              return <strong key={partIndex}>{part}</strong>;
+            }
+            return <span key={partIndex}>{part}</span>;
+          })}
+        </p>
+      ))}
+    </>
+  );
+};
+const RulesList = ({ rules }) => (
+  <ul className="list pl-6 space-y-2 text-gray-300 break-words">
+    {rules.map((rule, index) => (
+      <li key={index} className="">
+        {/* Apply same <strong> parsing as Desc */}
+        {rule.split(/<\/?strong>/gi).map((part, partIndex) => {
+          if (partIndex % 2 === 1) {
+            return <strong key={partIndex}>{part}</strong>;
+          }
+          return <span key={partIndex}>{part}</span>;
+        })}
+      </li>
     ))}
-  </>
+  </ul>
 );
+
 const Event = ({
   progress,
   range,
@@ -106,13 +132,7 @@ const Event = ({
             {/* Middle Section - Rules */}
             <SpotlightCard className="h-auto bg-transparent text-white p-6 rounded-lg shadow-lg border-0 hover:scale-105 transition-transform duration-300">
               <p className="text-2xl font-bold mb-4 text-red-400">Rules:</p>
-              <ul className="list pl-6 space-y-2 text-gray-300 break-words">
-                {rules.map((data, index) => (
-                  <li key={index} className="">
-                    {data}
-                  </li>
-                ))}
-              </ul>
+              <RulesList rules={rules} />
             </SpotlightCard>
 
             {/* Right Section - Standalone Image */}
