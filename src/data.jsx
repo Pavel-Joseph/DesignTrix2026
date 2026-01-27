@@ -31,7 +31,7 @@ export const aboutCollege = {
 export const events = [
   {
     name: "DOM-inance Technical",
-    desc: `Offline Code-from-Scratch Challenge\nTask: Recreate a provided UI screenshot with maximum precision`,
+    desc: `Offline Code-from-Scratch Challenge\nTask: Recreate a provided UI screenshot with maximum precision\n🏆 Evaluation Criteria:\nVisual Accuracy: How closely the output matches the reference screenshot (Layout, Spacing, Typography).\nCode Efficiency: Use of clean, semantic HTML and optimized CSS\nResponsiveness: Proper alignment and scaling within the specified viewport.`,
     bigImg: "/images/poster/coding.jpg",
     smallImg: "/images/logo/coding.jpg",
     rules: [  
@@ -40,8 +40,6 @@ export const events = [
 "Duration: 45 Mins",
 
 "⚙️ Prerequisites:","Hardware: Participants must bring their own laptop (fully charged).","Software: VS Code or Notepad++ (Pre-installed).","Connectivity: No Internet access will be provided or allowed during the contest.",
-
-"🏆 Evaluation Criteria:","Visual Accuracy: How closely the output matches the reference screenshot (Layout, Spacing, Typography).","Code Efficiency: Use of clean, semantic HTML and optimized CSS","Responsiveness: Proper alignment and scaling within the specified viewport."
 ],
     bgLeftGrad:
       "bg-gradient-to-r from-orange-600/60 via-rose-500/40 to-transparent",
