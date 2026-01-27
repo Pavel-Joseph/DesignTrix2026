@@ -48,7 +48,7 @@ export const events = [
   },
   {
     name: "IdeaForge Technical",
-    desc: 'Idea Presentation & Pitching\nTask: Identify a problem statement and present a feasible, tech-based solution/startup idea',
+    desc: 'Idea Presentation & Pitching\nTask: Identify a problem statement and present a feasible, tech-based solution/startup idea\n🏆 Evaluation Criteria:\nInnovation: How unique and creative is your solution?\nFeasibility: Can this be realistically implemented with current technology?\nImpact: The potential of the idea to solve a significant problem or disrupt an industry\nPresentation Skills: Clarity, confidence, and how well you handle the Q&A round',
     smallImg: "/images/logo/artwar.png",
     bigImg: "/images/poster/art.jpg",
     rules: [
@@ -57,11 +57,6 @@ export const events = [
       "⚙️ Prerequisites:",
       "Hardware: Participants must bring their own laptop",
       "Preparation: Participants should come prepared with their presentation or prototype on a pen drive or local storage (ensure it works offline)",
-      "🏆 Evaluation Criteria:",
-      "Innovation: How unique and creative is your solution?",
-      "Feasibility: Can this be realistically implemented with current technology?",
-      "Impact: The potential of the idea to solve a significant problem or disrupt an industry",
-      "Presentation Skills: Clarity, confidence, and how well you handle the Q&A round",
     ],
     bgLeftGrad:
       "bg-gradient-to-r from-purple-600/60 via-indigo-500/40 to-transparent",
@@ -70,7 +65,7 @@ export const events = [
   },
   {
     name: "Disrupt.exe Technical",
-    desc: "Hands-on Prototyping Workshop & Challenge\nTask: Solve a specific user-journey problem by creating a physical, paper-based wireframe/prototype",
+    desc: "Hands-on Prototyping Workshop & Challenge\nTask: Solve a specific user-journey problem by creating a physical, paper-based wireframe/prototype\n🏆 Evaluation Criteria:\nUser Experience (UX) Logic: Is the flow intuitive and easy for a user to follow?\nProblem Solving: How effectively does your design address the specific constraints provided?\nClarity: Is the layout clean and the functionality of each \"screen\" easy to understand?\nInnovation: Creative use of physical elements to simulate digital interactions (tabs, scrolls, or pop-ups)",
     smallImg: "/images/logo/paper.png",
     bigImg: "/images/poster/paper.jpg",
     rules: [
@@ -79,11 +74,6 @@ export const events = [
       "⚙️ Prerequisites:",
       "No Laptops Required: This is a 100% offline, analog event",
       "Mindset: A strong understanding of user flow, navigation logic, and information architecture",
-      "🏆 Evaluation Criteria:",
-      "User Experience (UX) Logic: Is the flow intuitive and easy for a user to follow?",
-      "Problem Solving: How effectively does your design address the specific constraints provided?",
-      "Clarity: Is the layout clean and the functionality of each \"screen\" easy to understand?",
-      "Innovation: Creative use of physical elements to simulate digital interactions (tabs, scrolls, or pop-ups)"
     ],
     bgLeftGrad:
       "bg-gradient-to-r from-[#020239] via-[#5444af] to-[#130086]",
@@ -92,17 +82,12 @@ export const events = [
     imageModify: "",
   },
   {
-    name: "SquidBid Non-Technical",
-    desc: `Get ready for the ultimate cricketing showdown at our IPL Auction event! Test your strategy, budget management, and cricket knowledge as you bid for top players to build your dream team. Compete against rival owners, make smart picks, and create the ultimate squad.`,
+    name: "TheGlitchPitch Technical",
+    desc: "Creative Pitching / Ad-Zapping Style\nTask: Participants will be given a specific software bug/glitch on the spot and must prepare a 2–3 minute pitch to sell it as a \"revolutionary feature.\"\n🏆 Evaluation Criteria:\nCreativity & Humor: How wildly imaginative is your \"feature\" explanation?\nPersuasiveness: Could you actually make someone believe this bug is useful?\nTechnical Wit: How well do you incorporate actual tech jargon into your hilarious pitch?\nConfidence: Your ability to handle \"investor\" Q&A without breaking character.",
     smallImg: "/images/poster/ipl.jpg",
     bigImg: "/images/logo/ipl.jpg",
     rules: [
-      "TEAM: 11 players (1 WK, 2 AR, 3 BAT, 3 BOWL).",
-      "SCORING: Player points + Purse balance decide the winner.",
-      "BIDDING: Direct bids allowed unsold players won’t return.",
-      "DECISIONS: Auctioneer’s call is final. Disputes = Disqualification.",
-      "CONDUCT: Respect all; misconduct leads to disqualification.",
-      "DISQUALIFICATION: Insufficient funds or rule violations.",
+      "Team Size: 1 to 2 members","Prep Time: 5 minutes (per bug provided)","⚙️ Prerequisites:","No Laptops Required: Just your wit, humor, and persuasive skills","Mindset: Think like a developer, but talk like a CEO at a Keynote",
     ],
     bgLeftGrad:
       "bg-gradient-to-r from-pink-600/60 via-fuchsia-500/40 to-transparent",
@@ -110,17 +95,12 @@ export const events = [
       "bg-gradient-to-l from-pink-600/40 via-fuchsia-500/20 to-transparent",
   },
   {
-    name: "FlickPicks Non-Technical",
-    desc: `
-Players guess the movie or song based on a sequence of images revealed over time. Early images are vague, while later ones give clearer hints. Players can guess anytime—earlier correct guesses earn more points. If no one guesses correctly, the answer is revealed.`,
+    name: "LOLgorithm Non-Technical",
+    desc: "Digital Meme Creation\nTask: Create original memes based on topics provided (Software Engineering, College Life, AI, etc.)\n🏆 Evaluation Criteria:\nRelatability: How well does the meme capture the \"struggles\" of a tech student or developer?\nOriginality: Fresh concepts win over overused templates\nHumor Quotient: Does it make the judges literally \"LOL\"?\nImpact: Visual layout and punchline delivery",
     smallImg: "/images/logo/connection.jpg",
     bigImg: "/images/poster/connection.jpg",
     rules: [
-      "TEAM & ROUNDS: Teams consist of 1 to 4 members, competing in 3 rounds with a minimum of 5 questions each.",
-      "SCORING: Each correct answer earns 5 points, while every incorrect answer deducts 2 points.",
-      "ANSWER FORMATS: All final answers must be given in Tamil.",
-      "ASSISTANCE: No audience support is allowed at any stage.",
-      "RESULTS: The final results are determined solely by the organizers.",
+      "Team Size: 1 to 2 members","Submission: Participants must create memes within the given timeframe and submit them in the specified format (JPG/PNG)","⚙️ Prerequisites:","Hardware: Participants must bring their own laptop or smartphone","Software: Any meme creation app or software of choice","Connectivity: Internet access will be provided for research and image sourcing","⚙️ Prerequisites:","Hardware: Participants must bring their own laptop","Tools: You are free to use any meme generator, Canva, Photoshop, or even MS Paint","Content: All entries must be original and free from any offensive, discriminatory, or vulgar content",
     ],
     bgLeftGrad:
       "bg-gradient-to-r from-[#0e263c] via-[#a5021f] to-[#581826]",
