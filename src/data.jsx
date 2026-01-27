@@ -31,7 +31,7 @@ export const aboutCollege = {
 export const events = [
   {
     name: "DOM-inance Technical",
-    desc: "Offline Code-from-Scratch Challenge\nTask: Recreate a provided UI screenshot with maximum precision\n🏆 Evaluation Criteria:\nVisual Accuracy: How closely the output matches the reference screenshot (Layout, Spacing, Typography).\nCode Efficiency: Use of clean, semantic HTML and optimized CSS\nResponsiveness: Proper alignment and scaling within the specified viewport.",
+    desc: "Offline Code-from-Scratch Challenge<br />Task: Recreate a provided UI screenshot with maximum precision<br />🏆 Evaluation Criteria:<br />Visual Accuracy: How closely the output matches the reference screenshot (Layout, Spacing, Typography).<br />Code Efficiency: Use of clean, semantic HTML and optimized CSS<br />Responsiveness: Proper alignment and scaling within the specified viewport.",
     bigImg: "/images/poster/coding.jpg",
     smallImg: "/images/logo/coding.jpg",
     rules: [  
