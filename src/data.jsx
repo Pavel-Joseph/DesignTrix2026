@@ -24,7 +24,7 @@ export const description ={
 export const aboutCollege = {
   department: "Computer Science and Design",
   description: [
-    `This event is being conducted by Computer Science and Design Department of RMK Engineering College.The Department of Computer Science and Design was established in the year 2021, with Mindtree as its knowledge partner to offer an industry relevant program. professional and ethical graduates, proficient of meeting challenges in the field of Computer Science and Design through effective teaching learning process and Industry Institute interaction.`,
+    `This event is being conducted by Computer Science and Design Department of RMK Engineering College. The Department of Computer Science and Design was established in the year 2021, with LTI Mindtree as its knowledge partner to offer an industry relevant program for professional and ethical graduates, proficient of meeting challenges in the field of Computer Science and Design through effective teaching learning process and Industry Institute interaction.`,
   ],
 };
 
