@@ -101,7 +101,7 @@ const Home = ({ handleHover }) => {
           <div className="flex flex-col justify-center items-center gap-6 lg:max-h-1/2 lg:h-1/2">
             <div {...handleHover}>
               <motion.h1 style={{color:textColor,fontFamily: "Orbitron, sans-serif"}} className="font-mono text-4xl max-sm:hidden md:text-6xl lg:text-7xl font-bold text-white">
-                DesignTrix 2026
+                Designtrix'26
               </motion.h1>
             </div>
             <div className="max-w-[720px]">
