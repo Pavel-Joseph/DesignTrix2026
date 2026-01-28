@@ -49,6 +49,7 @@ const HeroComponent = () => {
       }}
     >
       {/* College header */}
+      <div className="absolute inset-0 bg-black/60 z-0" />
       <div className="flex items-center absolute z-10 top-20">
         <div className="w-24 h-24 object-cover">
           <img src="/images/clg_logo.png" alt="R.M.K. Engineering College" />
