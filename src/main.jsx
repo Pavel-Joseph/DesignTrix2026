@@ -6,16 +6,11 @@ import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router";
 import Hero from "./pages/Hero";
 import App from "./pages/App";
-function App() {
-  return (
-    <div className="App">  {/* Your existing navbar, sections, footer */}
-      {/* ... all your page content ... */}
-      
-      <ModelViewer />  {/* ← Fixed 3D on right */}
-    </div>
-  );
-}
-
+<div className="App">
+  {/* Your existing navbar, sections, footer */}
+  
+  <ModelViewer />  {/* Fixed 3D right-side */}
+</div>
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <Routes>
