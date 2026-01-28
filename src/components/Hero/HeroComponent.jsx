@@ -42,7 +42,7 @@ const HeroComponent = () => {
     <div 
       className="flex h-screen w-full flex-col items-center" 
       style={{
-        backgroundImage: `url(/images/hero-bg.jpg)`,
+        backgroundImage: `url(/images/hero-bg.gif)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
