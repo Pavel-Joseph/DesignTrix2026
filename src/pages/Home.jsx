@@ -26,6 +26,7 @@ const Home = ({ handleHover }) => {
     offset: ["start end", "end start"],
   });
   const opacity = useTransform(scrollYProgress, [0.3, 0], [1, 0]);
+  
   useEffect(() => {
     animate(color, COLORS_TOP, {
       ease: "easeInOut",
@@ -34,11 +35,14 @@ const Home = ({ handleHover }) => {
       repeatType: "mirror",
     });
   }, []);
+
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noreferrer");
   };
+  
   const backgroundImage = useMotionTemplate`radial-gradient(100% 145% at 30% 0%, transparent 50%, ${color})`;
   const textColor = useMotionTemplate`${color}`;
+
   return (
     <motion.div
       id="home"
@@ -48,88 +52,83 @@ const Home = ({ handleHover }) => {
         width: "100%",
         backgroundSize: "cover",
       }}
-      initial={{
-        opacity: 0,
-      }}
-      animate={{
-        opacity: 1,
-      }}
-      transition={{
-        duration: 2,
-        ease: easeIn,
-      }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 2, ease: easeIn }}
     >
       <motion.div
         ref={ref}
         style={{ backgroundImage }}
         className="flex flex-col max-sm:flex-wrap items-center h-screen px-4 pt-16"
       >
+        {/* LEFT: College info - ASIMOVIAN */}
         <div className="flex flex-col w-1/2 space-y-24 justify-start items-center max-sm:hidden">
           <div className="flex flex-row justify-start items-center max-sm:hidden">
             <div className="w-24 h-24 object-cover">
-              <img src="/images/clg_logo.png" alt="" srcset="" />
+              <img src="/images/clg_logo.png" alt="College Logo" />
             </div>
             <motion.h1
               style={{ color: textColor }}
-              className="text-5xl font-extrabold roboto-serif-main"
+              className="text-5xl font-extrabold font-asimovian"  // ← ASIMOVIAN
             >
               R.M.K. Engineering College
             </motion.h1>
           </div>
           <div className="text-center">
             <motion.h1
-            initial={{
-              opacity:0,
-              scale:0.5,
-            }}
-            whileInView={{
-              opacity:1,
-              scale:1,
-            }}
-            transition={{
-              duration:0.5,
-              ease:"easeIn"
-            }}
-              className="text-2xl font-bold text-white/70"
+              initial={{ opacity: 0, scale: 0.5 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, ease: "easeIn" }}
+              className="text-2xl font-bold font-asimovian text-white/90"  // ← ASIMOVIAN
             >
-             <h1 className="uppercase text-3xl">Department of Computer Science and Design</h1>
-             <h1 className="font-semibold mt-6">Proudly Presents</h1>
+              <h1 className="uppercase text-3xl font-asimovian">Department of Computer Science and Design</h1>  // ← ASIMOVIAN
+              <h1 className="font-semibold mt-6 font-asimovian">Proudly Presents</h1>  // ← ASIMOVIAN
             </motion.h1>
           </div>
         </div>
+
+        {/* MAIN CONTENT */}
         <div className="flex flex-row max-sm:flex-wrap space-x-4 w-full justify-center items-center h-screen">
           <div className="flex flex-col justify-center items-center gap-6 lg:max-h-1/2 lg:h-1/2">
+            {/* DESIGNTREX'26 - Keep Orbitron */}
             <div {...handleHover}>
-              <motion.h1 style={{color:textColor,fontFamily: "Orbitron, sans-serif"}} className="font-mono text-4xl max-sm:hidden md:text-6xl lg:text-7xl font-bold text-white">
+              <motion.h1 
+                style={{ color: textColor, fontFamily: "Orbitron, sans-serif" }} 
+                className="font-mono text-4xl max-sm:hidden md:text-6xl lg:text-7xl font-bold"
+              >
                 Designtrix'26
               </motion.h1>
             </div>
+            
+            {/* Description - ASIMOVIAN */}
             <div className="max-w-[720px]">
-              <p className="text-wrap text-gray-300 pl-2 text-sm sm:text-md text-justify">
-                {/* Check for window width and conditionally display intro */}
+              <p className="text-wrap text-gray-300 pl-2 text-sm sm:text-md text-justify font-asimovian">  // ← ASIMOVIAN
                 <span className="text-justify w-full text-[17px]">
                   {description.content}
                 </span>
               </p>
             </div>
+            
+            {/* Register button */}
             <div className="hidden sm:flex">
               <button
                 {...handleHover}
                 onClick={() => openInNewTab(regLink)}
-                className="bg-primary px-8 py-2 rounded-full text-white font-bold btn hover:bg-cyan-500 transition-all  duration-300"
+                className="bg-primary px-8 py-2 rounded-full text-white font-bold btn hover:bg-cyan-500 transition-all duration-300 font-asimovian"  // ← ASIMOVIAN
               >
                 Register
               </button>
             </div>
           </div>
-          {/* exist on phone */}
+          
+          {/* Mobile countdown + button */}
           <div className="flex flex-col sm:hidden w-full pr-5 justify-center">
             <ShiftingCountdown border={border} boxShadow={boxShadow} />
             <div className="flex justify-center py-3">
               <button
                 {...handleHover}
                 onClick={() => openInNewTab(regLink)}
-                className="bg-primary w-2/3  py-2 rounded-full text-white font-bold btn hover:bg-cyan-500 transition-all  duration-300"
+                className="bg-primary w-2/3 py-2 rounded-full text-white font-bold btn hover:bg-cyan-500 transition-all duration-300 font-asimovian"  // ← ASIMOVIAN
               >
                 Register
               </button>
