@@ -66,10 +66,10 @@ const HeroComponent = () => {
         <motion.div className="h-screen relative w-full z-10 px-24 flex flex-col justify-center items-center">
           <div className="flex flex-col">
             <div className="text-8xl text-white relative z-10 title text-center lg:flex lg:flex-col lg:justify-center lg:items-center">
-              <motion.h1 style={{ color: textColor }} className="text-4xl font-extrabold uppercase">
+              <motion.h1 style={{ color: textColor }} className="text-4xl font-extrabold uppercase font-orbitron tracking-wider leading-tight">
                 Department of Computer Science and Design
               </motion.h1>
-              <motion.h1 style={{ color: textColor }} className="text-3xl font-extrabold">
+              <motion.h1 style={{ color: textColor }} className="text-3xl font-extrabold font-orbitron tracking-wider leading-tight">
                 Proudly presents
               </motion.h1>
               <Text />
@@ -79,7 +79,7 @@ const HeroComponent = () => {
           <div className="flex flex-col w-full justify-center items-center gap-2 mt-96">
             <div className="w-full flex flex-col justify-center">
               <div className="flex flex-col justify-center items-center gap-2">
-                <motion.h1 style={{ color: textColor }} className="text-3xl font-extrabold">
+                <motion.h1 style={{ color: textColor }} className="text-3xl font-extrabold font-orbitron tracking-wider leading-tight">
                   A National Level Technical Symposium
                 </motion.h1>
                 <ShiftingCountdown border={border} boxShadow={boxShadow} />
