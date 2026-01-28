@@ -44,7 +44,6 @@ const HeroComponent = () => {
            backgroundBlendMode: 'overlay'  // Blends with gradient
          }}>
       
-      <audio id="audio" src={theme} preload="auto" />
 
       {/* College header */}
       <div className="flex items-center absolute z-10 top-20">
