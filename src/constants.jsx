@@ -1,1 +1,6 @@
-export const COLORS_TOP = ["#1E67C6", "#DD335C"];
+export const COLORS_TOP = [
+  "#FBBF24",  // Gold
+  "#FCD34D",  // Light gold/yellow
+  "#FEF3C7",  // Cream yellow
+  "#FBBF24",  // Back to gold (loop)
+];
