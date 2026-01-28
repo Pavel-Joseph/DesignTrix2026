@@ -80,7 +80,7 @@ const HeroComponent = () => {
           <div className="flex flex-col w-full justify-center items-center gap-2 mt-96">
             <div className="w-full flex flex-col justify-center">
               <div className="flex flex-col justify-center items-center gap-2">
-            <motion.h1 style={{color:textColor}} className="text-3xl font-extrabold">A National Level Symposium</motion.h1>
+            <motion.h1 style={{color:textColor}} className="text-3xl font-extrabold">A National Level Technical Symposium</motion.h1>
               <ShiftingCountdown border={border} boxShadow={boxShadow} />
               </div>
             </div>
