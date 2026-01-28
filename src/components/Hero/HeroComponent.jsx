@@ -43,14 +43,6 @@ const HeroComponent = () => {
   const border = useMotionTemplate`1px solid ${color}`;
   const boxShadow = useMotionTemplate`0px 4px 24px ${color}`;
   const textColor=useMotionTemplate`${color}`
-  const particlesInit = useCallback(async (engine) => {
-    await loadSlim(engine);
-    await loadEmittersPlugin(engine); // Load the emitters plugin
-  }, []);
-
-  const particlesLoaded = useCallback(async (container) => {
-    console.log(container);
-  }, []);
   return (
     <div className="flex h-screen w-full flex-col items-center bg-[url(/images/about_bg.gif)]" >
       {/* <audio id="audio" src="/song/theme.mp3" preload="auto" ref={}/> */}
@@ -112,54 +104,7 @@ const HeroComponent = () => {
           </div>
         </motion.div>
       </div>
-      <Particles
-        id="tsparticles"
-        init={particlesInit}
-        loaded={particlesLoaded}
-        options={{
-          background: { color: { value: "#020617" } },
-          fpsLimit: 60,
-          interactivity: {
-            events: {
-              onHover: { enable: true, mode: "repulse" },
-              onClick: { enable: true, mode: "push" },
-              resize: true,
-            },
-            modes: {
-              repulse: { distance: 150 },
-              attract: { distance: 10, duration: 0.4, factor: 2 },
-            },
-          },
-          particles: {
-            life: { duration: 0.5 },
-            number: { value: 75, density: { enable: true, area: 800 } },
-            color: { value: [COLORS_TOP[0], COLORS_TOP[1]] },
-            shape: { type: "circle" },
-            opacity: {
-              value: { min: 0.4, max: 0.8 },
-              animation: { enable: true, speed: 3, minimumValue: 0.2 },
-            },
-            size: { value: { min: 5, max: 8 } },
-            move: {
-              enable: true,
-              speed: 3,
-              direction: "top",
-              outModes: { default: "bounce" },
-            },
-            stroke: { width: 0.3, color: "#ffffff" },
-          },
-          // emitters: {
-          //   direction: "none",
-          //   life: { count: 2, duration: 5 },
-          //   rate: { quantity: 10, delay: 0.4 },
-          //   size: { width: 100, height: 100 },
-          //   position: { x: 50, y: 50 },
-          // },
-          detectRetina: true,
-        }}
-      />
-      {/* <AudioPlayer /> */}
-    </div>
+      </div>
   );
 };
 
