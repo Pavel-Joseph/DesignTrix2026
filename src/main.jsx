@@ -1,17 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import ModelViewer from './components/ModelViewer.jsx';
 // import App from "./App.jsx";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router";
 import Hero from "./pages/Hero";
 import App from "./pages/App";
 
-<div className="App">
-  {/* Your existing navbar, sections, footer */}
-  
-  <ModelViewer />  {/* Fixed 3D right-side */}
-</div>
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <Routes>
