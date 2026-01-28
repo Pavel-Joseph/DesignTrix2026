@@ -8,7 +8,7 @@ import Lenis from "@studio-freight/lenis/types";
 import ContactUs from "./ContactUs";
 import MouseEffect from "../components/MouseEffect";
 import Notify from "../components/Notify";
-import ModelViewer from './components/ModelViewer';
+import ModelViewer from '../components/ModelViewer';
 
 const App = () => {
   const [hovered, setHovered] = useState(false);
@@ -26,10 +26,10 @@ const App = () => {
     requestAnimationFrame(raf);
   }, []);
   return (
+    <ModelViewer >
     <Content handleHover={handleHover(setHovered)}>
       <div className="fixed top-0 left-0 w-full h-full pointer-events-none z-[999] max-sm:hidden">
         <MouseEffect hover={hovered} />
-        <ModelViewer />
       </div>
       <Home handleHover={handleHover(setHovered)} />
       <AboutCollege handleHover={handleHover(setHovered)} />
@@ -38,6 +38,7 @@ const App = () => {
       <Notify handleHover={handleHover(setHovered)} />
       <ContactUs handleHover={handleHover(setHovered)} />
     </Content>
+    <ModelViewer />
   );
 };
 
