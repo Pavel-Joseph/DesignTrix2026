@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router';
 import { useMotionValue, useMotionTemplate, animate, motion } from 'framer-motion';
-import Text from './Text';
-import theme from '../../song/theme.mp3';  // Keep if needed
+import Text from './Text';// Keep if needed
 import COLORSTOP from '../../constants';
 import ShiftingCountdown from '../ShiftingCountDown';
 import './style.css';
@@ -44,7 +43,6 @@ const HeroComponent = () => {
            backgroundBlendMode: 'overlay'  // Blends with gradient
          }}>
       
-      <audio id="audio" src={theme} preload="auto" />
 
       {/* College header */}
       <div className="flex items-center absolute z-10 top-20">
