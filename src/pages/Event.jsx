@@ -83,7 +83,7 @@ const Event = ({
         >
           {/* Title Section */}
           <div className="w-full flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 items-center text-center sm:text-left">
-            <h1 style={{fontFamily: "Asimovian, sans-serif"}} className="text-2xl sm:text-3xl md:text-5xl font-bold text-white">
+            <h1 style={{fontFamily: "Henny Penny, system-ui"}} className="text-2xl sm:text-3xl md:text-5xl font-bold text-white">
               <TrueFocus
                 sentence={name}
                 manualMode={true}
