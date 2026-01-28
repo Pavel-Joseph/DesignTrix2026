@@ -19,7 +19,7 @@ export const navbarLinks = [
 
 export const description ={
   intro:"The Department of Computer Science and Design proudly presents ",
-  content:"Designtrix'26, a National Level Symposium featuring five engaging events categorized into technical and non-technical competitions. This event provides students with an excellent opportunity to showcase their skills, explore innovative ideas, and engage in healthy competition. With a perfect blend of creativity and technology, Designtrix'26 promises an exciting and enriching experience for all participants."
+  content:"Designtrix'26, a National Level Technical Symposium featuring five engaging events categorized into technical and non-technical competitions. This event provides students with an excellent opportunity to showcase their skills, explore innovative ideas, and engage in healthy competition. With a perfect blend of creativity and technology, Designtrix'26 promises an exciting and enriching experience for all participants."
 };
 export const aboutCollege = {
   department: "Computer Science and Design",
