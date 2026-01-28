@@ -100,7 +100,7 @@ export const events = [
     smallImg: "/images/logo/connection.jpg",
     bigImg: "/images/poster/connection.jpg",
     rules: [
-      "Team Size: 1 to 2 members","Submission: Participants must create memes within the given timeframe and submit them in the specified format (JPG/PNG)","<strong>⚙️ Prerequisites:</strong>","Hardware: Participants must bring their own laptop or smartphone","Software: Any meme creation app or software of choice","Connectivity: Internet access will be provided for research and image sourcing",
+      "Team Size: 1 to 3 members","Submission: Participants must create memes within the given timeframe and submit them in the specified format (JPG/PNG)","<strong>⚙️ Prerequisites:</strong>","Hardware: Participants must bring their own laptop or smartphone","Software: Any meme creation app or software of choice","Connectivity: Internet access will be provided for research and image sourcing",
     ],
     bgLeftGrad:
       "bg-gradient-to-r from-[#0e263c] via-[#a5021f] to-[#581826]",
@@ -111,9 +111,9 @@ export const events = [
 
 export const contact = {
   email: "designtrix@rmkec.ac.in",
-  number: "044 6790 6710",
+  number: "044 6790 6651",
   loc: "R.M.K. Engineering College",
-  instaLink: "",
+  instaLink: "https://www.instagram.com/designtrix",
 };
 export const rules = {
   mainText: "Who doesn't like rules? Let us share ours!!",
