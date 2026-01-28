@@ -8,6 +8,11 @@ export default {
         secondary: "#1E67C6",
         background: "#020617",
       },
+      fontFamily: {  // ← NEW: Add fonts here
+        orbitron: ['Orbitron', 'sans-serif'],  // Hero department title
+        geo: ['Geo', 'sans-serif'],            // Countdown
+        'roboto-serif-main': ['Roboto Serif', 'serif'],  // Your existing
+      },
       keyframes: {
         shine: {
           "0%": { "background-position": "100%" },
