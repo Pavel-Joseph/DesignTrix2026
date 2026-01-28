@@ -9,11 +9,11 @@ export default {
         background: "#020617",
       },
       fontFamily: {
-  orbitron: ['Orbitron', 'sans-serif'],
-  geo: ['Geo', 'sans-serif'],
-  asimovian: ['Asimovian', 'sans-serif'],  // ← NEW
-  'roboto-serif-main': ['Roboto Serif', 'serif'],
-},
+        orbitron: ['Orbitron', 'sans-serif'],
+        geo: ['Geo', 'sans-serif'],
+        quantico: ['Quantico', 'sans-serif'],  // ← REPLACED asimovian
+        'roboto-serif-main': ['Roboto Serif', 'serif'],
+      },
       keyframes: {
         shine: {
           "0%": { "background-position": "100%" },
