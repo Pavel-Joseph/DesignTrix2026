@@ -32,7 +32,7 @@ export const events = [
   {
     name: "DOM-inance Technical",
     desc: "Offline Code-from-Scratch Challenge\n<strong>Task:</strong> Recreate a provided UI screenshot with maximum precision\n<strong>🏆 Evaluation Criteria:</strong>\nVisual Accuracy: How closely the output matches the reference screenshot (Layout, Spacing, Typography)\nCode Efficiency: Use of clean, semantic HTML and optimized CSS\nResponsiveness: Proper alignment and scaling within the specified viewport.",
-    bigImg: "/images/poster/coding.jpg",
+    bigImg: "/images/poster/dom.jpg",
     smallImg: "/images/logo/coding.jpg",
     rules: [  
       "Team Size: 1 to 2 members",
