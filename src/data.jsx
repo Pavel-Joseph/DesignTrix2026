@@ -39,7 +39,7 @@ export const events = [
 
 "Duration: 45 Mins",
 
-"<strong>⚙️ Prerequisites:</strong>","Hardware: Participants must bring their own laptop (fully charged).","Software: VS Code or Notepad++ (Pre-installed).","Connectivity: No Internet access will be provided or allowed during the contest.",
+"<strong>⚙️ Prerequisites:</strong>","Hardware: Participants must bring their own laptop (fully charged).","Software: VS Code or Notepad++ (Pre-installed).","Connectivity: No Internet access will be provided or allowed during the contest.","","","","",
 ],
     bgLeftGrad:
       "bg-gradient-to-r from-orange-600/60 via-rose-500/40 to-transparent",
