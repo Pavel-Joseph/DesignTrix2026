@@ -81,8 +81,8 @@ const Home = ({ handleHover }) => {
               transition={{ duration: 0.5, ease: "easeIn" }}
               className="text-2xl font-bold text-white/70"
             >
-              <h1 className="uppercase text-3xl">Department of Computer Science and Design</h1>  // ← Original
-              <h1 className="font-semibold mt-6">Proudly Presents</h1>  // ← Original
+              <h1 className="uppercase text-3xl">Department of Computer Science and Design</h1>  
+              <h1 className="font-semibold mt-6">Proudly Presents</h1>  
             </motion.h1>
           </div>
         </div>
