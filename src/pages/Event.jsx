@@ -102,7 +102,7 @@ const Event = ({
           </div>
 
           {/* Responsive Grid Layout */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 h-full auto-rows-fr">
             {/* Left Section - About */}
             <div className="flex flex-col gap-4 sm:gap-6">
               <SpotlightCard className="bg-transparent text-white p-3 sm:p-6 rounded-lg shadow-lg border-0 hover:scale-105 transition-transform duration-300 ease-in-out">
@@ -136,7 +136,7 @@ const Event = ({
             </SpotlightCard>
 
             {/* Right Section - Standalone Image */}
-            <div className="flex justify-center items-start md:col-span-1">
+            <div className="flex justify-center items-stretch md:col-span-1">
               <ThreeDCard imgURL={bigImg} />
             </div>
           </div>
