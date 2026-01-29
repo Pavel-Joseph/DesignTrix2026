@@ -12,7 +12,7 @@ const Desc = ({ text }) => {
   return (
     <>
       {lines.map((line, lineIndex) => (
-        <p key={lineIndex} className="text-lg text-gray-300">
+        <p key={lineIndex} className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-300">
           {/* Now split line by <strong>...</strong> and render parts */}
           {line.split(/<\/?strong>/gi).map((part, partIndex) => {
             if (partIndex % 2 === 1) {
@@ -26,7 +26,7 @@ const Desc = ({ text }) => {
   );
 };
 const RulesList = ({ rules }) => (
-  <ul className="list pl-6 space-y-2 text-gray-300 break-words">
+  <ul className="list pl-4 sm:pl-6 space-y-1 sm:space-y-2 text-xs sm:text-sm md:text-base text-gray-300 break-words">
     {rules.map((rule, index) => (
       <li key={index} className="">
         {/* Apply same <strong> parsing as Desc */}
@@ -65,12 +65,12 @@ const Event = ({
     window.open(url, "_blank", "noreferrer");
   };
   return (
-    <div className="px-6 sm:px-12 md:px-24 mb-12 py-6 h-screen sticky top-0">
+    <div className="px-3 sm:px-6 md:px-12 lg:px-24 mb-12 py-4 sm:py-6 h-screen sticky top-0">
       <motion.div
         style={{ scale: scaleMain }}
         viewport={{ margin: "-100px" }}
         transition={{ duration: 3, ease: "easeInOut" }}
-        className="relative overflow-hidden w-full h-screen px-6 sm:px-12 py-6 flex flex-col gap-6 md:gap-12 items-start bg-gray-900 rounded-lg"
+        className="relative overflow-hidden w-full h-screen px-3 sm:px-6 md:px-12 py-4 sm:py-6 flex flex-col gap-3 sm:gap-6 md:gap-12 items-start bg-gray-900 rounded-lg"
       >
         {/* New Gradient Background */}
         <div className={`absolute inset-0 ${bgLeftGrad} `}></div>
@@ -82,8 +82,8 @@ const Event = ({
           ref={containerRef}
         >
           {/* Title Section */}
-          <div className="w-full flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 items-center text-center sm:text-left">
-            <h1 style={{fontFamily: "Henny Penny, system-ui"}} className="text-2xl sm:text-3xl md:text-5xl font-bold text-white">
+          <div className="w-full flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4 md:space-x-6 items-center text-center sm:text-left">
+            <h1 style={{fontFamily: "Henny Penny, system-ui"}} className="text-lg sm:text-2xl md:text-3xl lg:text-5xl font-bold text-white">
               <TrueFocus
                 sentence={name}
                 manualMode={true}
@@ -95,18 +95,18 @@ const Event = ({
             <button
               {...handleHover}
               onClick={() => openInNewTab(regLink)}
-              className="btn hover:bg-black/30 text-lg sm:text-xl mt-5 border border-white shadow-md rounded-full px-4 sm:px-6 py-2 text-white bg-gray-900/20"
+              className="btn hover:bg-black/30 text-xs sm:text-sm md:text-base lg:text-lg mt-2 sm:mt-0 border border-white shadow-md rounded-full px-4 sm:px-6 py-2 text-white bg-gray-900/20"
             >
               Register
             </button>
           </div>
 
           {/* Responsive Grid Layout */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {/* Left Section - About */}
-            <div className="lg:flex lg:flex-col gap-6 sm:hidden max-sm:hidden">
-              <SpotlightCard className="bg-transparent text-white p-6 rounded-lg shadow-lg border-0 hover:scale-105 transition-transform duration-300 ease-in-out">
-                <p className="text-2xl font-bold mb-4 text-cyan-400">What?</p>
+            <div className="flex flex-col gap-4 sm:gap-6">
+              <SpotlightCard className="bg-transparent text-white p-3 sm:p-6 rounded-lg shadow-lg border-0 hover:scale-105 transition-transform duration-300 ease-in-out">
+                <p className="text-lg sm:text-2xl font-bold mb-2 sm:mb-4 text-cyan-400">What?</p>
                 <Desc text={desc} />
               </SpotlightCard>
 
@@ -130,13 +130,13 @@ const Event = ({
             </div>
 
             {/* Middle Section - Rules */}
-            <SpotlightCard className="h-auto bg-transparent text-white p-6 rounded-lg shadow-lg border-0 hover:scale-105 transition-transform duration-300">
-              <p className="text-2xl font-bold mb-4 text-red-400">Rules:</p>
+            <SpotlightCard className="h-auto bg-transparent text-white p-3 sm:p-6 rounded-lg shadow-lg border-0 hover:scale-105 transition-transform duration-300">
+              <p className="text-lg sm:text-2xl font-bold mb-2 sm:mb-4 text-red-400">Rules:</p>
               <RulesList rules={rules} />
             </SpotlightCard>
 
             {/* Right Section - Standalone Image */}
-            <div className="hidden sm:flex justify-center py-6">
+            <div className="flex justify-center py-6 md:col-span-1">
               <ThreeDCard imgURL={bigImg} />
             </div>
           </div>
