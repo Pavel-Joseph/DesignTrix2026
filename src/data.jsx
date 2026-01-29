@@ -110,7 +110,7 @@ export const contact = {
   email: "designtrix@rmkec.ac.in",
   number: "044 6790 6651",
   loc: "R.M.K. Engineering College",
-  instaLink: "",
+  instaLink: "https://www.instagram.com/designtrix_26?igsh=cTBybDY0NW9oYml2",
 };
 export const rules = {
   mainText: "Who doesn't like rules? Let us share ours!!",
@@ -146,4 +146,4 @@ export const prizes = {
 };
 
 export const regLink = "https://forms.gle/jewvf6TuDNFQC1396";
-export const instaLink="https://www.instagram.com/designtrix25/";
+export const instaLink="https://www.instagram.com/designtrix_26?igsh=cTBybDY0NW9oYml2";
