@@ -37,7 +37,7 @@ export const events = [
     rules: [  
       "Team Size: 1 to 2 members",
 
-"Duration: 45 Mins",
+"Duration: 45 Mins","<strong>⚙️ Prerequisites:</strong>","Participants need not bring their own laptops",
 ],
     bgLeftGrad:
       "bg-gradient-to-r from-orange-600/60 via-rose-500/40 to-transparent",
