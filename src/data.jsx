@@ -38,8 +38,6 @@ export const events = [
       "Team Size: 1 to 2 members",
 
 "Duration: 45 Mins",
-
-"<strong>⚙️ Prerequisites:</strong>","Hardware: Participants must bring their own laptop (fully charged).","Software: VS Code or Notepad++ (Pre-installed).","Connectivity: No Internet access will be provided or allowed during the contest.","  ","  ","  ","  ",
 ],
     bgLeftGrad:
       "bg-gradient-to-r from-orange-600/60 via-rose-500/40 to-transparent",
@@ -55,7 +53,6 @@ export const events = [
       "Team Size: 1 to 3 members",
       "Deliverable: A PowerPoint presentation (PPT) or a clickable prototype",
       "<strong>⚙️ Prerequisites:</strong>",
-      "Hardware: Participants must bring their own laptop",
       "Preparation: Participants should come prepared with their presentation or prototype on a pen drive or local storage (ensure it works offline)",
     ],
     bgLeftGrad:
@@ -100,7 +97,7 @@ export const events = [
     smallImg: "/images/logo/connection.jpg",
     bigImg: "/images/poster/connection.jpg",
     rules: [
-      "Team Size: 1 to 2 members","Submission: Participants must create memes within the given timeframe and submit them in the specified format (JPG/PNG)","<strong>⚙️ Prerequisites:</strong>","Hardware: Participants must bring their own laptop or smartphone","Software: Any meme creation app or software of choice","Connectivity: Internet access will be provided for research and image sourcing",
+      "Team Size: 1 to 2 members","Submission: Participants must create memes within the given timeframe and submit them in the specified format (JPG/PNG)","<strong>⚙️ Prerequisites:</strong>","Software: Any meme creation app or software of choice","Connectivity: Internet access will be provided for research and image sourcing",
     ],
     bgLeftGrad:
       "bg-gradient-to-r from-[#0e263c] via-[#a5021f] to-[#581826]",
@@ -125,6 +122,7 @@ COMPULSORILY.`,
     `LADIES ARE REQUESTED TO WEAR ONLY SALWARS.
 USE OF MOBILE PHONES INSIDE THE COLLEGE PREMISES IS STRICTLY
 PROHIBITED.`,
+    'PARTICIPANTS NEED NOT BRING THEIR LAPTOPS',
     `ALL THE PARTICIPANTS SHOULD ADHERE TO THE RULES AND
 REGULATIONS OF THE COLLEGE.`,
     `ANYONE VIOLATING THE ABOVE RULES WILL NOT BE ALLOWED TO
