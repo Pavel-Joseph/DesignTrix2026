@@ -46,11 +46,11 @@ const Navbar = ({ handleHover }) => {
 
   return (
     <div
-      className={`border-2 border-white/20 shadow-lg shadow-cyan-500/30 px-4 py-4 max-w-1/2 flex justify-center items-center rounded-lg fixed z-50 transition-all duration-300 ${
+      className={`border-2 border-white/20 shadow-lg shadow-cyan-500/30 px-2 sm:px-4 py-2 sm:py-4 w-full sm:max-w-fit flex justify-center items-center rounded-lg fixed z-50 transition-all duration-300 ${
         isScrolled ? " shadow-md" : "bg-transparent"
       }`}
     >
-      <ul className="lg:uppercase flex flex-row space-x-9 text-slate-600">
+      <ul className="text-xs sm:text-sm lg:uppercase flex flex-row space-x-2 sm:space-x-6 lg:space-x-9 text-slate-600">
         {navbarLinks.map((data, index) => (
           <ZapText
             key={index}

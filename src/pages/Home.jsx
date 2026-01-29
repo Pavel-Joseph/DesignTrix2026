@@ -94,16 +94,16 @@ const Home = ({ handleHover }) => {
             <div {...handleHover}>
               <motion.h1 
                 style={{ color: textColor, fontFamily: "Orbitron, sans-serif" }} 
-                className="font-mono text-4xl max-sm:hidden md:text-6xl lg:text-7xl font-bold text-white"
+                className="font-mono text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white"
               >
                 Designtrix'26
               </motion.h1>
             </div>
             
             {/* Description - Original */}
-            <div className="max-w-[720px]">
-              <p className="text-wrap text-gray-300 pl-2 text-sm sm:text-md text-justify">
-                <span className="text-justify w-full text-[17px]">
+            <div className="max-w-[720px] px-2 sm:px-0">
+              <p className="text-wrap text-gray-300 pl-2 text-xs sm:text-sm md:text-base text-justify">
+                <span className="text-justify w-full text-xs sm:text-sm md:text-base lg:text-[17px]">
                   {description.content}
                 </span>
               </p>

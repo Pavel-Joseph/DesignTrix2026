@@ -108,12 +108,76 @@
     width: 80vw;
     height: 25vh;
   }
+  
+  .container .sticky .el:nth-of-type(2) .imageContainer {
+    width: 60vw;
+    left: 2vw;
+  }
+  
+  .container .sticky .el:nth-of-type(3) .imageContainer {
+    width: 50vw;
+    left: -10vw;
+  }
+  
+  .container .sticky .el:nth-of-type(4) .imageContainer {
+    width: 60vw;
+    left: 10vw;
+  }
+  
+  .container .sticky .el:nth-of-type(5) .imageContainer {
+    width: 50vw;
+    left: 2vw;
+  }
+  
+  .container .sticky .el:nth-of-type(6) .imageContainer {
+    width: 60vw;
+    left: -15vw;
+  }
+  
+  .container .sticky .el:nth-of-type(7) .imageContainer {
+    width: 45vw;
+    left: 15vw;
+  }
 }
 
 @media (max-width: 480px) { /* Adjust for mobile screens */
+  .container {
+    height: 200vh;
+  }
+  
   .container .sticky .el:nth-of-type(1) .imageContainer {
     width: 90vw;
     height: 20vh;
+  }
+  
+  .container .sticky .el:nth-of-type(2) .imageContainer {
+    width: 70vw;
+    left: 0;
+  }
+  
+  .container .sticky .el:nth-of-type(3) .imageContainer {
+    width: 60vw;
+    left: -8vw;
+  }
+  
+  .container .sticky .el:nth-of-type(4) .imageContainer {
+    width: 70vw;
+    left: 5vw;
+  }
+  
+  .container .sticky .el:nth-of-type(5) .imageContainer {
+    width: 60vw;
+    left: 0;
+  }
+  
+  .container .sticky .el:nth-of-type(6) .imageContainer {
+    width: 70vw;
+    left: -12vw;
+  }
+  
+  .container .sticky .el:nth-of-type(7) .imageContainer {
+    width: 50vw;
+    left: 10vw;
   }
 }
 
