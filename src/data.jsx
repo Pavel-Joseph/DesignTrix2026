@@ -31,10 +31,10 @@ export const aboutCollege = {
 export const events = [
   {
     name: "DOM-inance Technical",
-    desc: "Offline Code-from-Scratch Challenge\n<strong>Task:</strong> Recreate a provided UI screenshot with maximum precision\n<strong>🏆 Evaluation Criteria:</strong>\nVisual Accuracy: How closely the output matches the reference screenshot (Layout, Spacing, Typography)\nCode Efficiency: Use of clean, semantic HTML and optimized CSS\nResponsiveness: Proper alignment and scaling within the specified viewport.",
+    desc: "Offline Code-from-Scratch Challenge\n\n<strong>🏆 Evaluation Criteria:</strong>\nVisual Accuracy: How closely the output matches the reference screenshot (Layout, Spacing, Typography)\nCode Efficiency: Use of clean, semantic HTML and optimized CSS\nResponsiveness: Proper alignment and scaling within the specified viewport.\n\n\n\n",
     bigImg: "/images/poster/dom.jpg",
     smallImg: "/images/logo/coding.jpg",
-    rules: [  
+    rules: [  "<strong>Task:</strong> Recreate a provided UI screenshot with maximum precision",
       "Team Size: 1 to 2 members",
 
 "Duration: 45 Mins","<strong>⚙️ Prerequisites:</strong>","Participants need not bring their own laptops",
@@ -46,12 +46,12 @@ export const events = [
   },
   {
     name: "IdeaForge Technical",
-    desc: 'Idea Presentation & Pitching\n<strong>Task:</strong> Identify a problem statement and present a feasible, tech-based solution/startup idea\n<strong>🏆 Evaluation Criteria:</strong>\nInnovation: How unique and creative is your solution?\nFeasibility: Can this be realistically implemented with current technology?\nImpact: The potential of the idea to solve a significant problem or disrupt an industry\nPresentation Skills: Clarity, confidence, and how well you handle the Q&A round',
+    desc: 'Idea Presentation & Pitching\n\n<strong>🏆 Evaluation Criteria:</strong>\nInnovation: How unique and creative is your solution?\nFeasibility: Can this be realistically implemented with current technology?\nImpact: The potential of the idea to solve a significant problem or disrupt an industry\nPresentation Skills: Clarity, confidence, and how well you handle the Q&A round\n\n',
     smallImg: "/images/logo/artwar.png",
     bigImg: "/images/poster/art.jpg",
-    rules: [
+    rules: ["<strong>Task:</strong> Identify a problem statement and present a feasible, tech-based solution/startup idea",
       "Team Size: 1 to 3 members",
-      "Deliverable: A PowerPoint presentation (PPT) or a clickable prototype",
+      "Deliverable: A PowerPoint presentation (PPT) or a clickable prototype and, IEEE paper",
       "<strong>⚙️ Prerequisites:</strong>",
       "Preparation: Participants should come prepared with their presentation or prototype on a pen drive or local storage (ensure it works offline)",
     ],
@@ -62,10 +62,10 @@ export const events = [
   },
   {
     name: "Disrupt.exe Technical",
-    desc: "Hands-on Prototyping Workshop & Challenge\n<strong>Task:</strong> Solve a specific user-journey problem by creating a physical, paper-based wireframe/prototype\n<strong>🏆 Evaluation Criteria:</strong>\nUser Experience (UX) Logic: Is the flow intuitive and easy for a user to follow?\nProblem Solving: How effectively does your design address the specific constraints provided?\n<strong>Clarity:</strong> Is the layout clean and the functionality of each \"screen\" easy to understand?\nInnovation: Creative use of physical elements to simulate digital interactions (tabs, scrolls, or pop-ups)",
+    desc: "Hands-on Prototyping Workshop & Challenge\n\n<strong>🏆 Evaluation Criteria:</strong>\nUser Experience (UX) Logic: Is the flow intuitive and easy for a user to follow?\nProblem Solving: How effectively does your design address the specific constraints provided?\n<strong>Clarity:</strong> Is the layout clean and the functionality of each \"screen\" easy to understand?\nInnovation: Creative use of physical elements to simulate digital interactions (tabs, scrolls, or pop-ups)",
     smallImg: "/images/logo/paper.png",
     bigImg: "/images/poster/paper.jpg",
-    rules: [
+    rules: ["<strong>Task:</strong> Solve a specific user-journey problem by creating a physical, paper-based wireframe/prototype",
       "Team Size: 1 to 2 members",
       "Materials: Paper, markers, and basic stationary (will be provided, though you are welcome to bring your favorite sketching tools).",
       "<strong>⚙️ Prerequisites:</strong>",
@@ -80,10 +80,10 @@ export const events = [
   },
   {
     name: "TheGlitchPitch Technical",
-    desc: "Creative Pitching / Ad-Zapping Style\n<strong>Task:</strong> Participants will be given a specific software bug/glitch on the spot and must prepare a 2–3 minute pitch to sell it as a \"revolutionary feature.\"\n<strong>🏆 Evaluation Criteria:</strong>\nCreativity & Humor: How wildly imaginative is your \"feature\" explanation?\nPersuasiveness: Could you actually make someone believe this bug is useful?\nTechnical Wit: How well do you incorporate actual tech jargon into your hilarious pitch?\nConfidence: Your ability to handle \"investor\" Q&A without breaking character.",
+    desc: "Creative Pitching / Ad-Zapping Style\n\n<strong>🏆 Evaluation Criteria:</strong>\nCreativity & Humor: How wildly imaginative is your \"feature\" explanation?\nPersuasiveness: Could you actually make someone believe this bug is useful?\nTechnical Wit: How well do you incorporate actual tech jargon into your hilarious pitch?\nConfidence: Your ability to handle \"investor\" Q&A without breaking character.\n\n",
     smallImg: "/images/poster/ipl.jpg",
     bigImg: "/images/logo/ipl.jpg",
-    rules: [
+    rules: ["<strong>Task:</strong> Participants will be given a specific software bug/glitch on the spot and must prepare a 2–3 minute pitch to sell it as a \"revolutionary feature.\"",
       "Team Size: 1 to 2 members","Prep Time: 5 minutes (per bug provided)","<strong>⚙️ Prerequisites:</strong>","No Laptops Required: Just your wit, humor, and persuasive skills","Mindset: Think like a developer, but talk like a CEO at a Keynote",
     ],
     bgLeftGrad:
@@ -93,10 +93,10 @@ export const events = [
   },
   {
     name: "LOLgorithm Non-Technical",
-    desc: "Digital Meme Creation\n<strong>Task:</strong> Create original memes based on topics provided (Software Engineering, College Life, AI, etc.)\n<strong>🏆 Evaluation Criteria:</strong>\nRelatability: How well does the meme capture the \"struggles\" of a tech student or developer?\nOriginality: Fresh concepts win over overused templates\nHumor Quotient: Does it make the judges literally \"LOL\"?\nImpact: Visual layout and punchline delivery",
+    desc: "Digital Meme Creation\n\n<strong>🏆 Evaluation Criteria:</strong>\nRelatability: How well does the meme capture the \"struggles\" of a tech student or developer?\nOriginality: Fresh concepts win over overused templates\nHumor Quotient: Does it make the judges literally \"LOL\"?\nImpact: Visual layout and punchline delivery\n\n\n",
     smallImg: "/images/logo/connection.jpg",
     bigImg: "/images/poster/connection.jpg",
-    rules: [
+    rules: ["<strong>Task:</strong> Create original memes based on topics provided (Software Engineering, College Life, AI, etc.)",
       "Team Size: 1 to 2 members","Submission: Participants must create memes within the given timeframe and submit them in the specified format (JPG/PNG)","<strong>⚙️ Prerequisites:</strong>","Software: Any meme creation app or software of choice","Connectivity: Internet access will be provided for research and image sourcing",
     ],
     bgLeftGrad:
