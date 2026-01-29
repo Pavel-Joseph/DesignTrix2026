@@ -69,7 +69,7 @@ const Home = ({ handleHover }) => {
             </div>
             <motion.h1
               style={{ color: textColor }}
-              className="text-5xl font-extrabold roboto-serif-main"  // ← Original
+              className="text-5xl font-extrabold roboto-serif-main"
             >
               R.M.K. Engineering College
             </motion.h1>
@@ -79,7 +79,7 @@ const Home = ({ handleHover }) => {
               initial={{ opacity: 0, scale: 0.5 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, ease: "easeIn" }}
-              className="text-2xl font-bold text-white/70"  // ← Original
+              className="text-2xl font-bold text-white/70"
             >
               <h1 className="uppercase text-3xl">Department of Computer Science and Design</h1>  // ← Original
               <h1 className="font-semibold mt-6">Proudly Presents</h1>  // ← Original
