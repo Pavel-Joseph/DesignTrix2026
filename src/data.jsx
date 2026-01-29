@@ -108,7 +108,7 @@ export const events = [
 
 export const contact = {
   email: "designtrix@rmkec.ac.in",
-  number: "044 6790 6710",
+  number: "044 6790 6651",
   loc: "R.M.K. Engineering College",
   instaLink: "",
 };
