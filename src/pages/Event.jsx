@@ -136,13 +136,8 @@ const Event = ({
             </SpotlightCard>
 
             {/* Right Section - Standalone Image */}
-            <div className="hidden sm:flex justify-center py-8 px-4 flex-1">
-              <div className="w-full max-w-6xl h-[85vh] flex items-center justify-center">
-                <ThreeDCard 
-                  imgURL={bigImg} 
-                  className="!w-full !h-full !max-w-none !max-h-none !shadow-none !p-0 !border-0"
-                />
-              </div>
+            <div className="hidden sm:flex justify-center py-6">
+              <ThreeDCard imgURL={bigImg} />
             </div>
           </div>
         </div>
